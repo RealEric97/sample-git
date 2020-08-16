@@ -2,6 +2,7 @@ package org.eric.model;
 
 public class User {
     private String name;
+    private int age;
 
     /**
      * @return the name
