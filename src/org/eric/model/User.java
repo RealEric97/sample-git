@@ -3,7 +3,7 @@ package org.eric.model;
 public class User {
     private String name;
     private int age;
-    private int height;
+ 
     
     
 
@@ -41,14 +41,6 @@ public class User {
     }
 
 
-    public int getHeight() {
-        return height;
-    }
-
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
 
 
 
