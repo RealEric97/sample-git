@@ -18,13 +18,7 @@ public class User {
         this.name = name;
     }
 
-    /* (non-Javadoc)
-     * @see java.lang.Object#toString()
-     */
-    @Override
-    public String toString() {
-        return "User [name=" + name + "]";
-    }
+
 
     
     
@@ -41,6 +35,16 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
+
+    /* (non-Javadoc)
+     * @see java.lang.Object#toString()
+     */
+    @Override
+    public String toString() {
+        return "User [name=" + name + ", age=" + age + "]";
+    }
+    
+    
 
     
     
