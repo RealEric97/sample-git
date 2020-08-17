@@ -2,6 +2,7 @@ package org.eric.model;
 
 public class User {
     private String name;
+    private int age;
 
     /**
      * @return the name
@@ -27,6 +28,20 @@ public class User {
 
     
     
+    /**
+     * @return the age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * @param age the age to set
+     */
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     
     
 }
